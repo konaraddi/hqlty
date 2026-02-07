@@ -1,0 +1,180 @@
+# hqlty Repository Guidelines
+
+## Mission
+
+This repository helps improve online discourse by identifying antipatterns in conversation and providing constructive alternatives. The goal is to foster more productive, friendly, and cooperative dialogue on platforms like Reddit, Twitter, TikTok, and elsewhere.
+
+## How People Use This
+
+1. **Self-improvement**: Reading patterns to recognize and improve their own discourse habits
+2. **Constructive response**: Politely linking to patterns when they see antipatterns in discussions
+3. **Observer learning**: Understanding what makes conversations go sideways
+
+### What Success Looks Like
+
+When someone gets linked to a pattern, ideally:
+- They understand the issue without feeling attacked
+- The conversation gets back on track
+- Other participants learn from the example
+
+## What Qualifies as an Antipattern
+
+An antipattern is a common conversational move that:
+- **Sounds reasonable** on the surface but derails productive discussion
+- **Happens frequently** in online discourse
+- **Has clear alternatives** that keep conversations constructive
+- **Isn't just annoying** - it actively damages dialogue quality
+
+Not every bad behavior is an antipattern. Focus on subtle, widespread patterns that people often don't realize they're doing.
+
+## Pattern Structure
+
+Each pattern document should follow this structure:
+
+### 1. Frontmatter
+```yaml
+---
+slug: pattern-name
+title: Pattern Name
+---
+```
+
+### 2. The Pattern
+Brief description of what the antipattern looks like, followed by 3-4 generic examples.
+
+**Guidelines:**
+- Keep examples short and recognizable
+- Use quotes for clarity
+- Focus on the structure/form, not specific topics
+- Show variety in how the pattern manifests
+
+### 3. Why It's Unproductive
+Explain what this pattern does to the conversation and why people fall into it.
+
+**Guidelines:**
+- Assume good intent - these are usually unconscious habits
+- Acknowledge the human element (ego, defensiveness, social positioning)
+- Keep psychology light - no pseudo-science
+- Be empathetic but clear about impact
+- Weave in why people do this (the ego/identity aspect)
+- Avoid using "you" - it feels accusatory (use "it signals" or "this communicates" instead)
+- Length: 2-3 sentences max
+
+### 4. The Better Move
+Provide 3-4 concrete alternative phrasings that accomplish the same goal constructively.
+
+**Guidelines:**
+- Make alternatives genuinely useful, not preachy
+- Show variety in approach
+- Keep them natural-sounding
+- Focus on what TO say, not just what NOT to say
+
+### 5. Why It's Better
+Brief explanation of why the alternatives are more effective.
+
+**Guidelines:**
+- Connect to the conversation's goals
+- Be concise - 1-2 sentences
+- Focus on practical benefits
+
+### 6. Real Example
+At the bottom of each pattern, include a realistic example showing:
+- Original comment/topic
+- Antipattern response
+- Better alternative response
+
+**Guidelines:**
+- Can be real (anonymized) or realistic hypothetical
+- Keep it brief and relatable
+- Show clear contrast between antipattern and alternative
+- Use a neutral topic when possible
+
+**Example format:**
+```markdown
+---
+
+## Example in Context
+
+**Original**: "New study shows that regular exercise improves mood."
+
+**Antipattern**: "Well duh, anyone could have told you that."
+
+**Better**: "Makes sense. Have there been any surprising findings about which types of exercise work best?"
+```
+
+## Tone & Voice Guidelines
+
+### Always
+- **Assume good intent** - people usually don't realize they're doing these things
+- **Stay respectful** - readers may have just been linked here for doing this pattern
+- **Be empathetic** - acknowledge why these patterns are tempting
+- **Stay constructive** - focus on solutions, not shame
+- **Keep it concise** - people won't read walls of text
+
+### Never
+- Don't be preachy or condescending
+- Don't use academic jargon
+- Don't overexplain the psychology
+- Don't make people feel stupid
+- Don't use aggressive language
+- Don't use em dashes (—) in prose - they're associated with AI writing
+
+### Voice
+- Direct and clear
+- Slightly informal (this is for everyday internet discourse)
+- Helpful, not lecturing
+- Like a thoughtful friend pointing something out
+
+## Length Guidelines
+
+- **The Pattern**: 1 sentence description + 3-4 example quotes
+- **Why It's Unproductive**: 2-3 sentences
+- **The Better Move**: 3-4 alternative quotes
+- **Why It's Better**: 1-2 sentences
+- **Real Example**: 3-4 lines total
+
+Total page length: Aim for something readable in under 60 seconds.
+
+## Examples: Good vs Bad Pattern Descriptions
+
+### ❌ Bad: Too Aggressive
+"This obnoxious pattern makes you look like an arrogant jerk who values being right over actual discussion."
+
+### ✅ Good: Constructive
+"Treats confirmation as worthlessness. Makes the person sharing feel foolish for thinking evidence matters. Signals that you value being right over learning what's true."
+
+---
+
+### ❌ Bad: Too Academic
+"This pattern exhibits status-seeking behavior rooted in epistemic superiority complexes and defensive attribution biases."
+
+### ✅ Good: Accessible
+"Frames correction as humiliation. Makes the other person defensive before they've even heard the point."
+
+---
+
+### ❌ Bad: Too Vague
+"Don't do this because it's not nice."
+
+### ✅ Good: Specific
+"Turns agreement into validation theater. Suggests the conversation is about being right rather than exploring ideas."
+
+## Creating New Patterns
+
+### Process
+1. Identify a pattern you see repeatedly in online discourse
+2. Check if it's truly an antipattern (see criteria above)
+3. Draft the pattern using the structure template
+4. Test the tone - would you feel okay being linked to this page?
+5. Ensure alternatives are concrete and genuinely helpful
+
+### Naming Patterns
+- Use descriptive, memorable names
+- Keep them neutral, not judgmental
+- Examples: "hindsight-dismissal" not "being-a-know-it-all"
+
+## Repository Philosophy
+
+The internet doesn't have to be hostile. Most people want to have good conversations - they just fall into patterns that work against that goal. By naming these patterns and offering alternatives, we help people recognize and adjust these habits.
+
+This isn't about winning arguments or proving you're smarter. It's about making online spaces a bit more pleasant and productive for everyone.
