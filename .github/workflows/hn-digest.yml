@@ -1,0 +1,32 @@
+name: HN Antipattern Digest
+
+on:
+  schedule:
+    # Run daily at 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch HN comments and generate digest
+        run: python scripts/fetch_hn.py
+
+      - name: Commit and push digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add digests/
+          DATE=$(date -u +%Y-%m-%d)
+          git diff --cached --quiet || git commit -m "Add HN antipattern digest for ${DATE}"
+          git push
