@@ -13,7 +13,7 @@ exports.render = function (data) {
   <header>
     <h1>online discourse anti-patterns</h1>
     <nav>
-      <a href="/">Home</a> / <a href="/about/">About</a>
+      <a href="/">Home</a> / <a href="/about/">About</a> / <a href="https://github.com/konaraddi/odap" target="_blank" rel="noopener noreferrer">Github</a>
     </nav>
   </header>
 
