@@ -19,9 +19,20 @@ The goal isn't to win arguments or prove anyone wrong. It's to help make online 
 
 ## Anti patterns
 
-{% for pattern in collections.patterns | sort(false, false, 'data.title') -%}
-- [{{ pattern.data.title }}]({{ pattern.url }})
-{% endfor %}
+- [Victory Lap Agreement](/patterns/victory-lap-agreement/)
+- [Hindsight Dismissal](/patterns/hindsight-dismissal/)
+- [Strawman Disclaimer](/patterns/strawman-disclaimer/)
+- [Semantic Derailment](/patterns/semantic-derailment/)
+- [Downvote Martyrdom](/patterns/downvote-martyrdom/)
+- [Preemptive Martyrdom](/patterns/preemptive-martyrdom/)
+- [Vague They](/patterns/vague-they/)
+- [Source Dismissal](/patterns/source-dismissal/)
+- [Preemptive Condescension](/patterns/preemptive-condescension/)
+- [Research Dismissal](/patterns/research-dismissal/)
+- [Attention Policing](/patterns/attention-policing/)
+- [Purity Gatekeeping](/patterns/purity-gatekeeping/)
+- [History Lesson](/patterns/history-lesson/)
+- [Performative Defeatism](/patterns/performative-defeatism/)
 
 ## How to Use These
 
