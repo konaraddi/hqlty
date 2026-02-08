@@ -1,6 +1,7 @@
 ---
 slug: victory-lap-agreement
 title: Victory Lap Agreement
+priority: high
 ---
 
 ## The Pattern

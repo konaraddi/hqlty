@@ -1,6 +1,7 @@
 ---
 slug: purity-gatekeeping
 title: Purity Gatekeeping
+priority: low
 ---
 
 ## The Pattern

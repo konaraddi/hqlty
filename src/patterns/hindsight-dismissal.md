@@ -1,6 +1,7 @@
 ---
 slug: hindsight-dismissal
 title: Hindsight Dismissal
+priority: high
 ---
 
 ## The Pattern

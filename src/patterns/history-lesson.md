@@ -1,6 +1,7 @@
 ---
 slug: history-lesson
 title: History Lesson
+priority: low
 ---
 
 ## The Pattern

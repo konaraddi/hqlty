@@ -1,6 +1,7 @@
 ---
 slug: downvote-martyrdom
 title: Downvote Martyrdom
+priority: high
 ---
 
 ## The Pattern

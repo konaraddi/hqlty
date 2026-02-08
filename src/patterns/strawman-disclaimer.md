@@ -1,6 +1,7 @@
 ---
 slug: strawman-disclaimer
 title: Strawman Disclaimer
+priority: high
 ---
 
 ## The Pattern
