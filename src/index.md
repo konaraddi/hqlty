@@ -17,7 +17,7 @@ Each pattern includes:
 
 The goal isn't to win arguments or prove anyone wrong. It's to help make online spaces a bit more pleasant and productive for everyone.
 
-## Patterns
+## Anti patterns
 
 {% for pattern in collections.patterns | sort(false, false, 'data.title') -%}
 - [{{ pattern.data.title }}]({{ pattern.url }})
