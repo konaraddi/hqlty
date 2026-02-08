@@ -14,10 +14,10 @@ import sys
 import os
 import html
 import time
+import threading
 from datetime import datetime, timezone
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
 HN_API = "https://hacker-news.firebaseio.com/v0"
 MAX_COMMENTS_OUTPUT = 100
@@ -73,10 +73,31 @@ LINK_PATTERN = re.compile(
 )
 
 
+class RateLimiter:
+    """Simple rate limiter that enforces a minimum interval between calls."""
+
+    def __init__(self, max_per_second=2):
+        self._min_interval = 1.0 / max_per_second
+        self._lock = threading.Lock()
+        self._last_call = 0.0
+
+    def wait(self):
+        with self._lock:
+            now = time.monotonic()
+            elapsed = now - self._last_call
+            if elapsed < self._min_interval:
+                time.sleep(self._min_interval - elapsed)
+            self._last_call = time.monotonic()
+
+
+_rate_limiter = RateLimiter(max_per_second=2)
+
+
 def fetch_json(url, retries=3):
     """Fetch JSON from a URL with retries and exponential backoff."""
     for attempt in range(retries):
         try:
+            _rate_limiter.wait()
             req = Request(url, headers={"User-Agent": "hqlty-antipattern-digest/1.0"})
             with urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
                 return json.loads(resp.read().decode("utf-8"))
@@ -146,26 +167,21 @@ def fetch_comment_tree(story_item):
     # Track depth for each comment
     depth = {kid_id: 1 for kid_id in kid_ids}
 
-    with ThreadPoolExecutor(max_workers=10) as executor:
-        while queue and len(comments) < MAX_COMMENTS_PER_STORY:
-            batch = queue[: min(50, MAX_COMMENTS_PER_STORY - len(comments))]
-            queue = queue[len(batch) :]
+    while queue and len(comments) < MAX_COMMENTS_PER_STORY:
+        cid = queue.pop(0)
+        item = fetch_item(cid)
+        if item and item.get("type") == "comment" and not item.get("deleted"):
+            item["_depth"] = depth.get(item["id"], 1)
+            item["_story_id"] = story_item["id"]
+            item["_story_title"] = story_item.get("title", "")
+            comments.append(item)
 
-            futures = {executor.submit(fetch_item, cid): cid for cid in batch}
-            for future in as_completed(futures):
-                item = future.result()
-                if item and item.get("type") == "comment" and not item.get("deleted"):
-                    item["_depth"] = depth.get(item["id"], 1)
-                    item["_story_id"] = story_item["id"]
-                    item["_story_title"] = story_item.get("title", "")
-                    comments.append(item)
-
-                    # Queue children if we haven't hit the limit
-                    child_ids = item.get("kids", [])
-                    for cid in child_ids:
-                        depth[cid] = item["_depth"] + 1
-                    if len(comments) + len(queue) < MAX_COMMENTS_PER_STORY:
-                        queue.extend(child_ids)
+            # Queue children if we haven't hit the limit
+            child_ids = item.get("kids", [])
+            for child_id in child_ids:
+                depth[child_id] = item["_depth"] + 1
+            if len(comments) + len(queue) < MAX_COMMENTS_PER_STORY:
+                queue.extend(child_ids)
 
     return comments
 
@@ -270,12 +286,10 @@ def main():
     # Fetch story items
     print(f"Fetching {len(story_ids)} stories...", file=sys.stderr)
     stories = []
-    with ThreadPoolExecutor(max_workers=10) as executor:
-        futures = {executor.submit(fetch_item, sid): sid for sid in story_ids}
-        for future in as_completed(futures):
-            item = future.result()
-            if item and item.get("kids"):
-                stories.append(item)
+    for sid in story_ids:
+        item = fetch_item(sid)
+        if item and item.get("kids"):
+            stories.append(item)
 
     print(f"Found {len(stories)} stories with comments.", file=sys.stderr)
 
