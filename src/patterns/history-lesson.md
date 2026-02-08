@@ -35,7 +35,7 @@ Provides actual information instead of vague accusations of ignorance. Gives peo
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: "The Founders never intended for the government to be this involved in daily life."
 

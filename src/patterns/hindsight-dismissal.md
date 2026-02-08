@@ -35,7 +35,7 @@ Acknowledges the intuition while staying curious about details. Treats confirmat
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: "New study shows that getting 7-8 hours of sleep improves cognitive performance."
 

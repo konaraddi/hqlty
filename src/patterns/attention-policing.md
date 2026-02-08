@@ -35,7 +35,7 @@ Focuses on why something matters rather than performing surprise about attention
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: "Study shows microplastics found in 90% of tested water supplies." [15,000 upvotes, 800 comments]
 

@@ -35,7 +35,7 @@ Engages with substance instead of using domain as a thought-terminating cliche. 
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: "Here's an analysis of the policy's impact: [Medium article link]"
 

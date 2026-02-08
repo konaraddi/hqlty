@@ -93,7 +93,7 @@ At the bottom of each pattern, include a realistic example showing:
 ```markdown
 ---
 
-## Example in Context
+## Example
 
 **Original**: "New study shows that regular exercise improves mood."
 

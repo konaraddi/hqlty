@@ -35,7 +35,7 @@ Invites explanation without implying judgment. Keeps the conversation explorator
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: "I decided to refactor the authentication module before adding the new features."
 

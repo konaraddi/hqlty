@@ -35,7 +35,7 @@ Names the actual group being discussed, making claims verifiable. Allows others 
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: "I'm tired of how politicians ignore climate science."
 

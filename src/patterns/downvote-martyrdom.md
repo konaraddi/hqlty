@@ -35,7 +35,7 @@ Focuses on improving the argument rather than prosecuting the audience. Treats d
 
 ---
 
-## Example in Context
+## Example
 
 **Original comment**: "This policy will backfire because [argument]." [Gets downvoted]
 

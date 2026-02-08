@@ -35,7 +35,7 @@ Gets to the substance without the performance. Lets the information stand on its
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: "I think the policy will reduce costs significantly."
 

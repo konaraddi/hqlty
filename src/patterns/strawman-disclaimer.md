@@ -35,7 +35,7 @@ Lets people respond to what's actually being argued. Makes the conversation abou
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: "We should have better protections for gig workers since they lack basic benefits."
 

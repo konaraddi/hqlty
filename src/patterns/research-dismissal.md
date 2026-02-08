@@ -35,7 +35,7 @@ Backs up claims with actual sources instead of deflecting. Shows confidence in t
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: "Studies show this approach is ineffective."
 

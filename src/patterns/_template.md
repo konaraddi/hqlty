@@ -35,7 +35,7 @@ title: Pattern Name
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: [Original comment/topic]
 

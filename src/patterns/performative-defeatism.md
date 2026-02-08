@@ -35,7 +35,7 @@ Channels frustration toward possibility instead of resignation. Treats the conve
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: "Local company dumping waste into river faces no penalties after settlement."
 

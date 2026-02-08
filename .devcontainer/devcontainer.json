@@ -1,0 +1,12 @@
+{
+    "name": "Safe Node Dev",
+    "image": "node:20",
+    "workspaceFolder": "/app",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/app,type=bind,consistency=cached",
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "npm ci",
+    "remoteUser": "node"
+  }
+  

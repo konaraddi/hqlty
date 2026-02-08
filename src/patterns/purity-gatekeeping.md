@@ -35,7 +35,7 @@ Acknowledges that tool choices involve trade-offs rather than skill deficits. Op
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: "We shipped the desktop app using Electron to reuse our web codebase and move faster."
 

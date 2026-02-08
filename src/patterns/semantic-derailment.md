@@ -35,7 +35,7 @@ Acknowledges imprecision without making it the focus. Shows that understanding t
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: "The company's monopolistic practices are harming consumers."
 

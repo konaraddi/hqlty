@@ -35,7 +35,7 @@ Lets the idea stand on its own merits without framing disagreement as persecutio
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: "Should we add more bike lanes downtown?"
 

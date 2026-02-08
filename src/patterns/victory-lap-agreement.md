@@ -35,7 +35,7 @@ Builds on the idea instead of celebrating validation. Treats agreement as a star
 
 ---
 
-## Example in Context
+## Example
 
 **Original**: "The real issue with this policy is that it doesn't account for regional differences."
 
