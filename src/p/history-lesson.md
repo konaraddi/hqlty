@@ -4,7 +4,7 @@ title: History Lesson
 priority: low
 ---
 
-## The Pattern
+
 
 Dismissing someone's viewpoint by suggesting they lack historical knowledge instead of explaining what they might be missing.
 
@@ -38,8 +38,8 @@ Provides actual information instead of vague accusations of ignorance. Gives peo
 
 ## Example
 
-**Original**: "The Founders never intended for the government to be this involved in daily life."
+**OP**: "The Founders never intended for the government to be this involved in daily life."
 
-**Antipattern**: "If you believe that, you seriously need a history lesson."
+**Antipattern reply**: "If you believe that, you seriously need a history lesson."
 
 **Better**: "The Founders actually debated this extensively. Hamilton, for instance, advocated for a strong federal role in commerce and banking. There's good historical evidence on both sides of this question."

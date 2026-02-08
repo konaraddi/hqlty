@@ -3,7 +3,7 @@ slug: attention-policing
 title: Attention Policing
 ---
 
-## The Pattern
+
 
 Performatively questioning why something isn't getting more attention when it's already widely visible.
 
@@ -37,8 +37,8 @@ Focuses on why something matters rather than performing surprise about attention
 
 ## Example
 
-**Original**: "Study shows microplastics found in 90% of tested water supplies." [15,000 upvotes, 800 comments]
+**OP**: "Study shows microplastics found in 90% of tested water supplies." [15,000 upvotes, 800 comments]
 
-**Antipattern**: "Anyone else find it odd this is getting so little attention? This should be front page news everywhere."
+**Antipattern reply**: "Anyone else find it odd this is getting so little attention? This should be front page news everywhere."
 
 **Better**: "The methodology section mentions they tested rural and urban sources differently. Would be interested to see a breakdown by region."

@@ -4,7 +4,7 @@ title: Hindsight Dismissal
 priority: high
 ---
 
-## The Pattern
+
 
 Dismissing research or evidence because it confirms something that seems intuitive.
 
@@ -38,8 +38,8 @@ Acknowledges the intuition while staying curious about details. Treats confirmat
 
 ## Example
 
-**Original**: "New study shows that getting 7-8 hours of sleep improves cognitive performance."
+**OP**: "New study shows that getting 7-8 hours of sleep improves cognitive performance."
 
-**Antipattern**: "Well duh, anyone could have told you that. We didn't need a study for this."
+**Antipattern reply**: "Well duh, anyone could have told you that. We didn't need a study for this."
 
 **Better**: "Makes sense. Were there any surprising findings about sleep quality vs. quantity, or what counts as 'cognitive performance'?"

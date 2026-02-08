@@ -98,7 +98,7 @@ def fetch_json(url, retries=3):
     for attempt in range(retries):
         try:
             _rate_limiter.wait()
-            req = Request(url, headers={"User-Agent": "hqlty-antipattern-digest/1.0"})
+            req = Request(url, headers={"User-Agent": "odap-antipattern-digest/1.0"})
             with urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
                 return json.loads(resp.read().decode("utf-8"))
         except (URLError, HTTPError, TimeoutError) as e:
@@ -166,6 +166,8 @@ def fetch_comment_tree(story_item):
     queue = list(kid_ids)
     # Track depth for each comment
     depth = {kid_id: 1 for kid_id in kid_ids}
+    # Cache fetched items to avoid refetching parents
+    item_cache = {}
 
     while queue and len(comments) < MAX_COMMENTS_PER_STORY:
         cid = queue.pop(0)
@@ -174,6 +176,28 @@ def fetch_comment_tree(story_item):
             item["_depth"] = depth.get(item["id"], 1)
             item["_story_id"] = story_item["id"]
             item["_story_title"] = story_item.get("title", "")
+
+            # Fetch parent comment context if available
+            if item.get("parent"):
+                try:
+                    parent_id = item["parent"]
+                    # Check cache first
+                    if parent_id in item_cache:
+                        parent_item = item_cache[parent_id]
+                    else:
+                        parent_item = fetch_item(parent_id)
+                        if parent_item:
+                            item_cache[parent_id] = parent_item
+
+                    # Only add parent text if it's a comment (not story) and has text
+                    if parent_item and parent_item.get("type") == "comment" and parent_item.get("text"):
+                        item["_parent_text"] = strip_html(parent_item.get("text", ""))
+                except Exception as e:
+                    # Log but don't fail - parent context is nice-to-have
+                    print(f"  Warning: Could not fetch parent {parent_id}: {e}", file=sys.stderr)
+
+            # Cache this item too
+            item_cache[item["id"]] = item
             comments.append(item)
 
             # Queue children if we haven't hit the limit
@@ -259,6 +283,7 @@ def format_digest(scored_comments, date_str):
         depth = comment.get("_depth", 0)
         hn_url = f"https://news.ycombinator.com/item?id={comment['id']}"
         reason_str = ", ".join(reasons)
+        parent_text = comment.get("_parent_text", "")
 
         lines.append(f"### #{i} (score: {score})")
         lines.append("")
@@ -266,6 +291,17 @@ def format_digest(scored_comments, date_str):
         lines.append(f"**Author**: {author} | **Depth**: {depth} | **Signals**: {reason_str}")
         lines.append(f"**Link**: {hn_url}")
         lines.append("")
+
+        # Include parent context if available
+        if parent_text:
+            # Truncate very long parent comments to keep digest readable
+            if len(parent_text) > 500:
+                parent_text = parent_text[:497] + "..."
+            lines.append("**Parent comment**:")
+            lines.append("> " + parent_text.replace("\n", "\n> "))
+            lines.append("")
+            lines.append("**This comment**:")
+
         lines.append("> " + text.replace("\n", "\n> "))
         lines.append("")
         lines.append("---")

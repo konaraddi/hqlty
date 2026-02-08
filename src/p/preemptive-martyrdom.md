@@ -3,7 +3,7 @@ slug: preemptive-martyrdom
 title: Preemptive Martyrdom
 ---
 
-## The Pattern
+
 
 Predicting negative reactions to preemptively claim victim status or appear brave.
 
@@ -37,8 +37,8 @@ Lets the idea stand on its own merits without framing disagreement as persecutio
 
 ## Example
 
-**Original**: "Should we add more bike lanes downtown?"
+**OP**: "Should we add more bike lanes downtown?"
 
-**Antipattern**: "This will probably get downvoted, but I think bike lanes actually make traffic worse."
+**Antipattern reply**: "This will probably get downvoted, but I think bike lanes actually make traffic worse."
 
 **Better**: "I think bike lanes can sometimes worsen traffic flow. Has anyone looked at the data from similar cities?"

@@ -3,7 +3,7 @@ slug: research-dismissal
 title: Research Dismissal
 ---
 
-## The Pattern
+
 
 Telling people to "do your own research" or "educate yourself" instead of providing evidence for claims.
 
@@ -37,8 +37,8 @@ Backs up claims with actual sources instead of deflecting. Shows confidence in t
 
 ## Example
 
-**Original**: "Studies show this approach is ineffective."
+**OP**: "Studies show this approach is ineffective."
 
-**Antipattern**: "Do your own research. I'm not going to spoon-feed you basic facts."
+**Antipattern reply**: "Do your own research. I'm not going to spoon-feed you basic facts."
 
 **Better**: "This meta-analysis found limited effectiveness: [link]. The main issue was sample size in most studies."

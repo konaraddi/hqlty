@@ -4,7 +4,7 @@ title: Semantic Derailment
 priority: high
 ---
 
-## The Pattern
+
 
 Nitpicking word choice or definitions to avoid engaging with the main argument.
 
@@ -38,8 +38,8 @@ Acknowledges imprecision without making it the focus. Shows that understanding t
 
 ## Example
 
-**Original**: "The company's monopolistic practices are harming consumers."
+**OP**: "The company's monopolistic practices are harming consumers."
 
-**Antipattern**: "They're not a monopoly. Technically, they only have 65% market share. A monopoly is 100%."
+**Antipattern reply**: "They're not a monopoly. Technically, they only have 65% market share. A monopoly is 100%."
 
 **Better**: "They don't meet the strict legal definition of monopoly, but I agree that market concentration at that level raises concerns. What remedies do you think would help?"

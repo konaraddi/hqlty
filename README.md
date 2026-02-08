@@ -1,6 +1,6 @@
-# hqlty
+# odap
 
-A reference for discourse antipatterns—the subtle conversation moves that derail productive discussion.
+A reference for online discourse antipatterns, the subtle conversation moves that derail productive discussion.
 
 ## What This Is
 

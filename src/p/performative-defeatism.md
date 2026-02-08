@@ -4,7 +4,7 @@ title: Performative Defeatism
 priority: low
 ---
 
-## The Pattern
+
 
 Publicly declaring that outrage or concern will lead to no real action or change.
 
@@ -38,8 +38,8 @@ Channels frustration toward possibility instead of resignation. Treats the conve
 
 ## Example
 
-**Original**: "Local company dumping waste into river faces no penalties after settlement."
+**OP**: "Local company dumping waste into river faces no penalties after settlement."
 
-**Antipattern**: "We'll all upvote this today from the comforts of our couch then forget about it tomorrow. Nothing will change."
+**Antipattern reply**: "We'll all upvote this today from the comforts of our couch then forget about it tomorrow. Nothing will change."
 
 **Better**: "This seems important. What can we actually do about this? Are there local environmental groups working on it?"

@@ -3,7 +3,7 @@ slug: preemptive-condescension
 title: Preemptive Condescension
 ---
 
-## The Pattern
+
 
 Prefacing corrections or facts with phrases that frame the other person as naive or about to be humbled.
 
@@ -37,8 +37,8 @@ Gets to the substance without the performance. Lets the information stand on its
 
 ## Example
 
-**Original**: "I think the policy will reduce costs significantly."
+**OP**: "I think the policy will reduce costs significantly."
 
-**Antipattern**: "You will be disappointed to know that similar policies in other states increased costs by 15%."
+**Antipattern reply**: "You will be disappointed to know that similar policies in other states increased costs by 15%."
 
 **Better**: "Worth noting that similar policies in other states increased costs by 15%. What makes this version different?"

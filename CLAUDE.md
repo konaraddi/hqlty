@@ -1,4 +1,4 @@
-# hqlty Repository Guidelines
+# odap Repository Guidelines
 
 ## Mission
 
@@ -95,9 +95,9 @@ At the bottom of each pattern, include a realistic example showing:
 
 ## Example
 
-**Original**: "New study shows that regular exercise improves mood."
+**OP**: "New study shows that regular exercise improves mood."
 
-**Antipattern**: "Well duh, anyone could have told you that."
+**Antipattern reply**: "Well duh, anyone could have told you that."
 
 **Better**: "Makes sense. Have there been any surprising findings about which types of exercise work best?"
 ```

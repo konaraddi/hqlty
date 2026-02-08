@@ -3,7 +3,7 @@ slug: pattern-name
 title: Pattern Name
 ---
 
-## The Pattern
+
 
 [Brief description of what the antipattern looks like]
 
@@ -37,8 +37,8 @@ title: Pattern Name
 
 ## Example
 
-**Original**: [Original comment/topic]
+**OP**: [Original comment/topic]
 
-**Antipattern**: [Antipattern response]
+**Antipattern reply**: [Antipattern response]
 
 **Better**: [Better alternative response]

@@ -6,10 +6,16 @@ exports.render = function (data) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${data.title || 'hqlty'}</title>
+  <title>${data.title || 'odap'}</title>
   <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
+  <header>
+    <h1>online discourse anti-patterns</h1>
+    <nav>
+      <a href="/">Home</a> / <a href="/about/">About</a>
+    </nav>
+  </header>
 
   <main>
     ${isHomepage ? data.content : `
@@ -19,10 +25,6 @@ exports.render = function (data) {
     </article>
     `}
   </main>
-
-  <footer>
-    <p><a href="https://github.com/konaraddi/hqlty">GitHub</a></p>
-  </footer>
 </body>
 </html>`;
 };

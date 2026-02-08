@@ -4,7 +4,7 @@ title: Downvote Martyrdom
 priority: high
 ---
 
-## The Pattern
+
 
 Editing comments to complain about downvotes or claim they prove correctness.
 
@@ -40,6 +40,6 @@ Focuses on improving the argument rather than prosecuting the audience. Treats d
 
 **Original comment**: "This policy will backfire because [argument]." [Gets downvoted]
 
-**Antipattern**: "EDIT: Getting downvoted for stating facts. Stay mad, Reddit."
+**Antipattern reply**: "EDIT: Getting downvoted for stating facts. Stay mad, Reddit."
 
 **Better**: "EDIT: For those asking for evidence, here's the analysis I'm basing this on: [link]. Happy to discuss specific concerns."

@@ -3,7 +3,7 @@ slug: source-dismissal
 title: Source Dismissal
 ---
 
-## The Pattern
+
 
 Rejecting arguments by dismissing the publication or domain rather than engaging with the content.
 
@@ -37,8 +37,8 @@ Engages with substance instead of using domain as a thought-terminating cliche. 
 
 ## Example
 
-**Original**: "Here's an analysis of the policy's impact: [Medium article link]"
+**OP**: "Here's an analysis of the policy's impact: [Medium article link]"
 
-**Antipattern**: "LOL Medium. Got a real source?"
+**Antipattern reply**: "LOL Medium. Got a real source?"
 
 **Better**: "Interesting analysis. Do you know if there are peer-reviewed studies on this, or is this mainly the author's interpretation?"

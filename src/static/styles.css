@@ -411,6 +411,12 @@ ul {
 	padding-left: 2rem;
 }
 
+/* Remove bullets on homepage list only (direct child of main) */
+main > ul {
+	list-style: none;
+	padding-left: 0;
+}
+
 li {
 	margin-top: .4rem;
 }

@@ -4,7 +4,7 @@ title: Victory Lap Agreement
 priority: high
 ---
 
-## The Pattern
+
 
 Responding to a comment with celebratory validation phrases that frame agreement as winning.
 
@@ -38,8 +38,8 @@ Builds on the idea instead of celebrating validation. Treats agreement as a star
 
 ## Example
 
-**Original**: "The real issue with this policy is that it doesn't account for regional differences."
+**OP**: "The real issue with this policy is that it doesn't account for regional differences."
 
-**Antipattern**: "Ding ding ding! Finally someone gets it."
+**Antipattern reply**: "Ding ding ding! Finally someone gets it."
 
 **Better**: "Agreed. What's interesting is how those regional differences also affect implementation timelines."

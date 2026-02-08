@@ -3,7 +3,7 @@ slug: vague-they
 title: Vague They
 ---
 
-## The Pattern
+
 
 Making sweeping generalizations about an undefined "they" without clarifying who this group actually is.
 
@@ -37,8 +37,8 @@ Names the actual group being discussed, making claims verifiable. Allows others 
 
 ## Example
 
-**Original**: "I'm tired of how politicians ignore climate science."
+**OP**: "I'm tired of how politicians ignore climate science."
 
-**Antipattern**: "The funny thing is they all claim to follow the science but then they do nothing about it."
+**Antipattern reply**: "The funny thing is they all claim to follow the science but then they do nothing about it."
 
 **Better**: "Many legislators say they accept climate science, but voting records show only about 40% have supported concrete emissions policies."

@@ -4,7 +4,7 @@ title: Strawman Disclaimer
 priority: high
 ---
 
-## The Pattern
+
 
 Distancing from a viewpoint while actively expressing it.
 
@@ -38,8 +38,8 @@ Lets people respond to what's actually being argued. Makes the conversation abou
 
 ## Example
 
-**Original**: "We should have better protections for gig workers since they lack basic benefits."
+**OP**: "We should have better protections for gig workers since they lack basic benefits."
 
-**Antipattern**: "I'm not one to subscribe to the socialist thinking of Bernie Sanders, but we should have better protections for gig workers since they lack basic benefits."
+**Antipattern reply**: "I'm not one to subscribe to the socialist thinking of Bernie Sanders, but we should have better protections for gig workers since they lack basic benefits."
 
 **Better**: "I think we should have better protections for gig workers since they lack basic benefits. The current model shifts too much risk onto individuals."

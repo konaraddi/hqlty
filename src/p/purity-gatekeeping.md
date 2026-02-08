@@ -4,7 +4,7 @@ title: Purity Gatekeeping
 priority: low
 ---
 
-## The Pattern
+
 
 Dismissing technical choices or tools as inadequate because they use higher-level abstractions rather than lower-level fundamentals.
 
@@ -38,8 +38,8 @@ Acknowledges that tool choices involve trade-offs rather than skill deficits. Op
 
 ## Example
 
-**Original**: "We shipped the desktop app using Electron to reuse our web codebase and move faster."
+**OP**: "We shipped the desktop app using Electron to reuse our web codebase and move faster."
 
-**Antipattern**: "Electron apps are bloated garbage. Real developers build native apps that don't eat 500MB of RAM."
+**Antipattern reply**: "Electron apps are bloated garbage. Real developers build native apps that don't eat 500MB of RAM."
 
 **Better**: "What drove the decision to use Electron over native? I'm curious how you weighed bundle size and performance against development speed."
