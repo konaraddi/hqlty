@@ -1,6 +1,7 @@
 ---
 slug: semantic-derailment
 title: Semantic Derailment
+priority: high
 ---
 
 ## The Pattern

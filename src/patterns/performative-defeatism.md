@@ -1,6 +1,7 @@
 ---
 slug: performative-defeatism
 title: Performative Defeatism
+priority: low
 ---
 
 ## The Pattern

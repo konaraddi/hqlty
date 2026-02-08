@@ -19,7 +19,7 @@ The goal isn't to win arguments or prove anyone wrong. It's to help make online 
 
 ## Anti patterns
 
-{% for pattern in collections.patterns | sort(false, false, 'data.title') -%}
+{% for pattern in collections.patternsByPriority -%}
 - [{{ pattern.data.title }}]({{ pattern.url }})
 {% endfor %}
 
