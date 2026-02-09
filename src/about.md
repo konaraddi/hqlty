@@ -11,7 +11,7 @@ Each pattern includes:
 - Why it tends to backfire
 - Better alternatives that keep conversations on track
 
-The goal isn't to win arguments or prove anyone wrong. It's to help make a dent in the right direction.
+The goal isn't to win arguments or prove anyone wrong. It's to make online conversations a little more productive, one reply at a time.
 
 ## How to Use These
 
