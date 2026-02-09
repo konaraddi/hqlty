@@ -4,7 +4,7 @@ layout: layout.11ty.js
 eleventyExcludeFromCollections: true
 ---
 
-The internet could be a better place for discourse. This is a reference guide on antipatterns in replies — unproductive expressions that aren't conducive to pleasant, productive, and focused discussion. These aren't logical fallacies or insults. They're moves that feel natural in the moment but tend to derail conversations.
+The internet could be a better place for discourse. This is a reference guide on antipatterns in replies — unproductive expressions that aren't conducive to pleasant, productive, and focused discussion. Not logical fallacies, just things people say without realizing they're shutting the conversation down.
 
 Each pattern includes:
 - Examples of what it looks like
