@@ -4,14 +4,14 @@ layout: layout.11ty.js
 eleventyExcludeFromCollections: true
 ---
 
-This is a collection of common patterns that happen in online conversations on platforms like Reddit, Hacker News, Twitter, and other internet forums. These aren't insults or trolling. They're moves that feel natural in the moment but tend to make discussions less productive and focused.
+The internet could be a better place for discourse. This is a reference guide on antipatterns in replies — unproductive expressions that aren't conducive to pleasant, productive, and focused discussion. Not logical fallacies, just things people say without realizing they're shutting the conversation down.
 
 Each pattern includes:
 - Examples of what it looks like
 - Why it tends to backfire
 - Better alternatives that keep conversations on track
 
-The goal isn't to win arguments or prove anyone wrong. It's to help make online spaces a bit more pleasant, productive, and focused for everyone. We recognize this isn't an objective in all online spaces (though we hope it'd be the case more often).
+The goal isn't to win arguments or prove anyone wrong. It's to make online conversations a little more productive, one reply at a time.
 
 ## How to Use These
 
