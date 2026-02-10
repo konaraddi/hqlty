@@ -2,17 +2,19 @@
   "name": "odap",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "serve": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "start": "docusaurus start",
+    "build": "docusaurus build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "moment": "^2.30.1"
+  "dependencies": {
+    "@docusaurus/core": "^3.9.0",
+    "@docusaurus/preset-classic": "^3.9.0",
+    "prism-react-renderer": "^2.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
-  "dependencies": {}
+  "devDependencies": {}
 }
