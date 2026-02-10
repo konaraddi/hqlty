@@ -6,7 +6,7 @@ const config = {
   tagline: 'A reference for online discourse antipatterns: the subtle conversation moves that sound reasonable but derail productive discussion.',
   url: 'https://odap.konaraddi.com',
   baseUrl: '/',
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'en',
