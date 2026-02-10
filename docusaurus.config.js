@@ -31,14 +31,7 @@ const config = {
     ({
       navbar: {
         title: 'odap',
-        items: [
-          { to: '/contributing', label: 'Contributing', position: 'right' },
-          {
-            href: 'https://github.com/konaraddi/odap',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+        items: [],
       },
       colorMode: {
         defaultMode: 'light',
