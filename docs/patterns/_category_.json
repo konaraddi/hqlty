@@ -1,4 +1,5 @@
 {
   "label": "Patterns",
-  "collapsible": false
+  "collapsible": true,
+  "collapsed": true
 }

@@ -1,6 +1,5 @@
 ---
 title: online discourse anti-patterns
-sidebar_position: 0
 slug: /
 displayed_sidebar: patternsSidebar
 ---
