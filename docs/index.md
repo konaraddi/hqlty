@@ -3,14 +3,14 @@ title: online discourse anti-patterns
 slug: /
 ---
 
-The internet could be a better place for discourse. This is a reference guide on antipatterns in replies -- unproductive expressions that aren't conducive to pleasant, productive, and focused discussion. Not logical fallacies, just things people say without realizing they're shutting the conversation down.
+The internet could be a better place for discourse. This is a reference guide on antipatterns in replies; unproductive expressions that aren't conducive to pleasant, productive, and focused discussion. 
 
 Each pattern includes:
 - Examples of what it looks like
-- Why it tends to backfire
+- Why it isn't productive
 - Better alternatives that keep conversations on track
 
-The goal isn't to win arguments or prove anyone wrong. It's to make online conversations a little more productive, one reply at a time.
+The goal isn't to win arguments or prove anyone wrong. It's to make online conversations a little more productive, one reply at a time. We recognize that this guide isn't applicable to many online spaces and nor should it be applicable in all online spaces.
 
 ## How to Use These
 
