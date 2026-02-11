@@ -1,8 +1,6 @@
 ---
 title: Contributing
 slug: /contributing
-displayed_sidebar: patternsSidebar
-sidebar_position: 999
 ---
 
 This is an open project. If you've spotted a common antipattern that isn't covered, or think an existing pattern could be improved, contributions are welcome.
