@@ -1,6 +1,5 @@
 ---
 title: Strawman Disclaimer
-sidebar_position: 13
 ---
 
 

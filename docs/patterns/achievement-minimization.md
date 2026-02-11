@@ -1,6 +1,5 @@
 ---
 title: Achievement Minimization
-sidebar_position: 100
 ---
 
 

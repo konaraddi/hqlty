@@ -1,6 +1,5 @@
 ---
 title: Elitist Dismissal
-sidebar_position: 104
 ---
 
 

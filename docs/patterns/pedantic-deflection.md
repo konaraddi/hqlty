@@ -1,6 +1,5 @@
 ---
 title: Pedantic Deflection
-sidebar_position: 110
 ---
 
 

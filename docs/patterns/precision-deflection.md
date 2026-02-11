@@ -1,6 +1,5 @@
 ---
 title: Precision Deflection
-sidebar_position: 111
 ---
 
 
