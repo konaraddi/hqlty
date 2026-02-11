@@ -32,7 +32,14 @@ const config = {
       navbar: {
         title: 'odap',
         items: [
-          { to: '/about', label: 'About', position: 'right' },
+          { type: 'doc', docId: 'index', label: 'About', position: 'left' },
+          {
+            type: 'docSidebar',
+            sidebarId: 'patternsSidebar',
+            label: 'Patterns',
+            position: 'left',
+          },
+          { type: 'doc', docId: 'contributing', label: 'Contributing', position: 'left' },
           {
             href: 'https://github.com/konaraddi/odap',
             label: 'GitHub',
