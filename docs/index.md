@@ -1,6 +1,7 @@
 ---
-title: online discourse anti-patterns
+title: Introduction
 slug: /
+sidebar_position: 0
 ---
 
 The internet could be a better place for discourse. This is a reference guide on antipatterns in replies; unproductive expressions that aren't conducive to pleasant, productive, and focused discussion. 
