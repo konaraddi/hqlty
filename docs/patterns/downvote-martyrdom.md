@@ -1,6 +1,5 @@
 ---
 title: Downvote Martyrdom
-sidebar_position: 10
 ---
 
 

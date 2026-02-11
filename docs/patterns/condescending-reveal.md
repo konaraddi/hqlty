@@ -1,6 +1,5 @@
 ---
 title: Condescending Reveal
-sidebar_position: 102
 ---
 
 

@@ -1,6 +1,5 @@
 ---
 title: Performative Defeatism
-sidebar_position: 201
 ---
 
 

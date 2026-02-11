@@ -1,6 +1,5 @@
 ---
 title: Victory Lap Agreement
-sidebar_position: 14
 ---
 
 

@@ -1,6 +1,5 @@
 ---
 title: Sinister Analogy
-sidebar_position: 116
 ---
 
 

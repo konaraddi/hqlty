@@ -1,6 +1,5 @@
 ---
 title: Preemptive Martyrdom
-sidebar_position: 113
 ---
 
 

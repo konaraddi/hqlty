@@ -1,6 +1,5 @@
 ---
 title: Purity Gatekeeping
-sidebar_position: 202
 ---
 
 
