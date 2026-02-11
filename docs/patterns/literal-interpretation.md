@@ -1,6 +1,5 @@
 ---
 title: Literal Interpretation
-sidebar_position: 106
 ---
 
 

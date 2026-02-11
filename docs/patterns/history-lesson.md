@@ -1,6 +1,5 @@
 ---
 title: History Lesson
-sidebar_position: 200
 ---
 
 

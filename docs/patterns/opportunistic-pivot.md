@@ -1,6 +1,5 @@
 ---
 title: Opportunistic Pivot
-sidebar_position: 109
 ---
 
 

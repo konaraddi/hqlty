@@ -1,6 +1,5 @@
 ---
 title: Attention Policing
-sidebar_position: 101
 ---
 
 

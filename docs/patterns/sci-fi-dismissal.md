@@ -1,6 +1,5 @@
 ---
 title: Sci-Fi Dismissal
-sidebar_position: 115
 ---
 
 

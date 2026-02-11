@@ -1,6 +1,5 @@
 ---
 title: Motivation Diagnosis
-sidebar_position: 108
 ---
 
 

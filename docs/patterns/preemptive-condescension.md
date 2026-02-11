@@ -1,6 +1,5 @@
 ---
 title: Preemptive Condescension
-sidebar_position: 112
 ---
 
 

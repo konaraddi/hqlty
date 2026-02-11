@@ -1,6 +1,5 @@
 ---
 title: Pattern Name
-sidebar_position: 100
 ---
 
 

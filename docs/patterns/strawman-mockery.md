@@ -1,6 +1,5 @@
 ---
 title: Strawman Mockery
-sidebar_position: 118
 ---
 
 

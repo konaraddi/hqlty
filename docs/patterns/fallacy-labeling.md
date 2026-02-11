@@ -1,6 +1,5 @@
 ---
 title: Fallacy Labeling
-sidebar_position: 105
 ---
 
 

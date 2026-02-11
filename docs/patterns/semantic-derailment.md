@@ -1,6 +1,5 @@
 ---
 title: Semantic Derailment
-sidebar_position: 12
 ---
 
 
