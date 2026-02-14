@@ -9,9 +9,9 @@ The internet could be a better place for discourse. This is a reference guide on
 Each pattern includes:
 - Examples of what it looks like
 - Why it isn't productive
-- Better alternatives that keep conversations on track
+- Better alternatives
 
-The goal isn't to win arguments or prove anyone wrong. It's to make online conversations a little more productive, one reply at a time. We recognize that this guide isn't applicable to many online spaces and nor should it be applicable in all online spaces.
+The goal is to make online conversations a little more productive, one reply at a time. We recognize that this guide isn't applicable to many online spaces and nor should it be applicable in all online spaces.
 
 ## How to Use These
 
