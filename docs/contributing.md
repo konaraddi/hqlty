@@ -12,9 +12,8 @@ Not every bad conversational habit qualifies. A pattern belongs here if it:
 - **Sounds reasonable** on the surface but derails productive discussion
 - **Happens frequently** in online discourse (Reddit, HN, Twitter, forums)
 - **Has clear alternatives** that keep conversations constructive
-- **Isn't just rude** -- it's a subtle, widespread habit people often don't realize they're doing
 
-If someone would immediately recognize the behavior as hostile, it probably doesn't need a page here. The interesting patterns are the ones that feel normal until you look closer.
+If someone would immediately recognize the behavior as hostile, it probably doesn't need a page here. The interesting patterns are the ones that feel normal but are unproductive at best if the intent of discourse is to persuade.
 
 ## How to Contribute
 
